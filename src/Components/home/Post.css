@@ -1,0 +1,44 @@
+.post:hover{
+    background-color: rgb(48, 47, 47);
+    
+}
+
+
+.post-cards{
+    /* padding: 16px 44px 8px 12px;  */
+    padding: 12px 16px;
+}
+.post {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.thumbnail{
+    padding-top: 6px;
+}
+
+.thumbnail img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(46,46,46);   
+    border-radius: 8px;
+
+}
+
+.post .date{
+    color: rgba(255, 255, 255, .75);
+    font-size: 12px;
+}
+
+.post-name{
+    color: #fff;
+    font-size: 14px;
+}
+
+.post-name a{
+    color: #fff;
+    text-decoration: none;
+}

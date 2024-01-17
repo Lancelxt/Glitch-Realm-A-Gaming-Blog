@@ -1,0 +1,22 @@
+.dock {
+    position: fixed;
+    bottom: 10px;
+    left: 800px;
+    z-index: 999;
+    display: flex;
+    width: 16vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid rgb(46, 46,46); 
+    color: white;  
+    border-radius: 16px;
+    background-color: rgb(28, 28, 28);
+    gap: 40px;
+    padding:8px;
+}
+
+.dock svg{
+    height: 40px;
+    width: 40px;
+}

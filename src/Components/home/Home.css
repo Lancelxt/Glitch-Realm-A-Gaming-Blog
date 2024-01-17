@@ -1,0 +1,37 @@
+.home {
+    color: white;  
+    position: relative;
+    left: 246px;
+    padding-right: 20px;
+    
+
+}
+
+.heading{
+    border-bottom: 1px solid rgb(46, 46,46); 
+    font-size: 92px;
+    /* padding-left: 200px; */
+    text-align: center;
+    padding: 20px 0px;
+    color: red;
+    
+}
+
+.home .wrapper {
+    width: 55vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    border: 1px solid rgb(46, 46,46);
+    color: white;  
+    border-radius: 12px;
+    background-color: rgb(28, 28, 28);
+}
+
+.post-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

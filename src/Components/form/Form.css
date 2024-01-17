@@ -1,0 +1,59 @@
+
+input{
+    appearance: none;
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: none;
+    padding: 8px 88px 8px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: Poppins, "Poppins Placeholder", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 12px;
+    background: none;
+    color: rgba(255, 255, 255, .75);
+
+}
+
+input:focus{
+    color: white;
+}
+
+button{
+    background: rgba(255, 255, 255, .3);
+    color: white;
+    
+    /* width: 80px;
+    height: 100%; */
+    width: 80px;
+    height: 32px;
+    
+    outline: none;
+    border: none;
+    cursor: pointer;
+    /* margin-top: 4px; */
+    padding: 0px 2px 0px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    /* background-color: rgba(255, 255, 255, .75);  */
+
+    /* background:rgba(28, 28, 28, 0.3); */
+    /* color: rgb(28, 28, 28) ; */
+    
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    /* border: 1px solid white; */
+    /* background: var(--token-faa8809b-6cc5-4403-9e96-3923a237e228, rgba(28, 28, 28, 0.05)); */
+    background: hsla(0, 0%, 100%, .05);
+    color: var(--token-5c9cd35a-ca72-4ae3-acb6-3f4e08c9b389, rgb(28, 28, 28));
+    /* box-shadow: inset 0 0 0 0.2px rgb(255, 255, 255), inset 0 0 0 1px rgb(99, 98, 98); */
+    
+
+}
